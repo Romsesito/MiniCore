@@ -10,7 +10,7 @@ Este proyecto es un backend (mini-core) desarrollado en Java con Spring Boot com
 ---
 
 ### **Video Explicativo**
-> [https://link](https://link)
+> ([https://www.youtube.com/watch?v=V611y3ig8ME](https://www.youtube.com/watch?v=V611y3ig8ME))]
 
 ---
 
