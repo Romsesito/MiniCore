@@ -1,4 +1,3 @@
-
 FROM eclipse-temurin:21-jdk-jammy as builder
 
 WORKDIR /app
@@ -8,6 +7,8 @@ COPY gradle ./gradle
 COPY build.gradle .
 COPY settings.gradle .
 COPY src ./src
+
+RUN chmod +x ./gradlew
 
 RUN ./gradlew build --no-daemon -x test
 
